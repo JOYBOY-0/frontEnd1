@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Shop</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header class="flex">
+        <div class="logo">
+            <img src="img/logo.svg" alt="Logo Game Shop">
+            <h1 class="text-lg md:text-xl">Game<span>Shop</span></h1>
+        </div>
+    
+        <nav>
+            <ul class="text-base md:text-large">
+                <li>Categorías</li>
+                <li>Ofertas</li>
+                <li>Moda</li>
+                <li>Favoritos</li>
+                <li><i class="fa fa-shopping-cart"></i></li>
+            </ul>
+        </nav>
+
+        <i class="fa-solid fa-bars text-3xl flex sm:hidden"></i>
+    </header>
+
+    <main>
+        <!--***************** BANNER *****************-->
+        <section>
+            <div class="banner">
+                <p><span>25%</span>de descuento en juegos de playstation 4</p>
+                <a href="#" class="banner-btn">Comprar</a>
+            </div>
+        </section>
+        <!--***************** PRODUCTOS DESTACADOS *****************-->
+        <section> 
+            <h2>Productos destacados</h2>     
+            <div class="contenedor-destacados space-y-4 sm:space-y-0">
+                
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/detroit.png" alt="Imagen del juego">
+                    </div>
+                    
+                    <div class="card-info">
+                        <p class="precio">$3.200</p>
+                        <p class="cuotas">12 x $266,66 sin interés</p>
+                        <small>Envío gratis</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/fifa21.png" alt="Imagen del juego">
+                    </div>
+                    <div class="card-info">
+                        <p class="precio">$3.200</p>
+                        <p class="cuotas">12 x $266,66 sin interés</p>
+                        <small>Envío gratis</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/mortal-kombat.png" alt="Imagen del juego">
+                    </div>
+                    <div class="card-info">
+                        <p class="precio">$3.200</p>
+                        <p class="cuotas">12 x $266,66 sin interés</p>
+                        <small>Envío gratis</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--***************** PRODUCTOS ESTRELLA *****************-->
+        <section>
+            <h2>Productos estrella</h2>
+            <div class="contenedor-estrella">
+                <div class="producto-estrella">
+                    <p>Sillas gamer</p>
+                </div>
+                <div class="producto-estrella">
+                    <p>Computadoras</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="img/logo.svg" alt="Logo Game Shop">
+            <h3>Game<span>Shop</span></h3>
+        </div>
+        <div class="footer-redes">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <div class="derechos">
+            <p>Todos los derechos reservados a Front</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Pet shop</title>
+</head>
+<body>
+  <header class="h-[10vh] md:h-[14vh] w-screen flex flex-col shadow-lg
+  bg-gradient-to-br from-orange-500/90 to-orange-400/90 fixed top-0 z-10
+  backdrop-blur-sm">
+    <div class="hidden md:flex justify-between bg-zinc-900 text-white py-1 px-20
+    text-sm lg:text-base">
+      <p>Grandes ofertas en comederos</p>
+      <p>Epañol</p>
+    </div>
+    <div class="flex justify-between items-center my-auto px-10">
+      <div class="text-xl lg:text-2xl">
+        <p class="font-bold">Front<span class="text-white">Cat&Dog</span></p>
+      </div>
+      <i class="fa-solid fa-bars md:hidden block text-white text-3xl"></i>
+      
+      <nav class="hidden md:flex">
+        <ul class="text-white font-thin">
+          <a class="mr-3"><i class="fa-solid fa-paw mr-1"></i>Categorias</a>
+          <a class="mr-3"><i class="fa-solid fa-paw mr-1"></i>Pets</a>
+          <a class="mr-3"><i class="fa-solid fa-paw mr-1"></i>Nosotros</a>
+          <a class="mr-3"><i class="fa-solid fa-paw mr-1"></i>Contactenos</a>
+        </ul>
+      </nav>
+  </div>
+  </header>
+  <main class="mt-[10vh] md:mt-[14vh]">
+    <section id="hero" class="relative">
+      <img src="img/bowl-and-pet-daities-on-green-background 1.png" class="w-screen"/>
+      <article class="absolute right-20 top-1/2 -translate-y-1/2
+      flex flex-col items-center justify-center">
+        <h3 class="text-3xl font-bold text-white drop-shadow-sm">Es un placer tenerte aqui</h3>
+        <p class="text-lg mt-1 mb-3">Comederos en descuento</p>
+        <button class="py-4 px-5 rounded-lg text-white font-semibold
+        bg-gradient-to-br from-orange-500 to-orange-400 shadow-lg shadow-orange-200/20">
+          COMEDEROS</button>
+      </article>
+
+
+    </section>
+    <section id="destacados" class="mt-10">
+
+      <div class="flex flex-col items-center justify-center p-2">
+        <i class="fa-solid fa-paw text-6xl text-neutral-50/0
+        bg-gradient-to-tr from-orange-600 to-orange-200 bg-clip-text"></i>
+        <h1 class="text-3xl font-bold text-gray-800 mt-1 text-center">Productos destacados</h1>
+        <ul class="flex space-x-4 mt-2">
+          <li>Comederos</li>
+          <li>Accesorios</li>
+          <li>Comida</li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col items-center justify-center 
+      space-y-6 md:flex-row md:space-y-0 md:space-x-6 my-10 p-4">
+        <article class="bg-[#FBFAF6] p-2 rounded-lg shadow-sm">
+          <img src="img/churrasquito.png" alt="churrasquito para perros" >
+          <h4 class="font-semibold text-center text-gray-900">Juguete Churrasquito</h4>
+          <p class="text-center text-orange-400 text-lg font-bold">
+            $150</p>
+        </article>
+        <article class="bg-[#FBFAF6] p-2 rounded-lg shadow-sm">
+          <img src="img/comedero.png" alt="churrasquito para perros" >
+          <h4 class="font-semibold text-center text-gray-900">Juguete Churrasquito</h4>
+          <p class="text-center text-orange-400 text-lg font-bold">
+            $150</p>
+        </article>
+        <article class="bg-[#FBFAF6] p-2 rounded-lg shadow-sm">
+          <img src="img/churrasquito.png" alt="churrasquito para perros" >
+          <h4 class="font-semibold text-center text-gray-900">Juguete Churrasquito</h4>
+          <p class="text-center text-orange-400 text-lg font-bold">
+            $150</p>
+        </article>
+      </div>
+    </section>
+    <form id="contacto" class="flex flex-col items-center justify-center
+    w-screen max-w-[400px] mx-auto my-16 p-2">
+      <h3 class="text-3xl font-bold mb-4 text-gray-800">Contacto</h3>
+      <input type="text" placeholder="Nombre y Apellido"
+      name="name" id="name" required
+      class="p-4 placeholder:text-white text-white bg-[#3C2313]
+      rounded-xl mb-2 w-full text-sm shadow-inner shadow-black/20 ">
+
+      <input type="email" placeholder="Ingresa tu correo electronico"
+      name="email" id="email" required
+      class="p-4 placeholder:text-white text-white bg-[#3C2313]
+      rounded-xl mb-2 w-full text-sm shadow-inner shadow-black/20">
+
+      <input type="tel" placeholder="Telefono" 
+      name="phone" id="phone" required
+      class="p-4 placeholder:text-white text-white bg-[#3C2313]
+      rounded-xl mb-2 w-full text-sm shadow-inner shadow-black/20">
+
+      <div class="flex justify-center w-full space-x-4 mt-8">
+        <button type="reset"
+        class="p-2 bg-gray-400 rounded-full w-1/3 
+        text-white font-semibold text-lg shadow-lg">
+          Resetear</button>
+          <button type="submit"
+          class="p-2 rounded-full w-1/3 
+          text-white font-semibold text-lg shadow-lg
+          bg-gradient-to-br from-orange-500 to-orange-400">
+            Enviar</button>
+      </div>
+    </form>
+  </main>
+  <footer class="w-full">
+    <div class="flex flex-col md:flex-row md:justify-between
+    bg-gradient-to-br from-orange-500 to-orange-400 py-4">
+      <div class="flex items-center h-20 w-full text-white">
+        <i class="fa-solid fa-envelope text-3xl mx-4"></i>
+        <h4 class="text-xl font-semibold">Suscríbete para más novedades</h4>     
+      </div>
+      <form action="/" method="POST"
+      class="flex items-center justify-evenly max-w-[500px] w-full mx-auto md:mx-0">
+        <input type="email" placeholder="Ingresa tu correo electronico"
+        class="p-4 placeholder:text-[#3C2313] text-[#3C2313] bg-gray-200
+        rounded-xl w-[60%] text-sm shadow-inner shadow-black/20">
+      <button type="submit" class="p-2 rounded-full w-1/3 text-white font-semibold text-lg shadow-lg
+      bg-gradient-to-br from-[#3C2313] to-amber-900 border-2 border-white">
+        Enviar</button>
+      </form>
+    </div>
+    <div class="">
+      <div class="bg-[#3C2313] p-3">
+        <div class=" space-y-6 my-4 md:ml-10">
+          <div class="flex">
+            <div class="rounded-full bg-gray-400 p-4 mr-4 aspect-square">
+              <i class="fa-solid fa-map-location-dot text-4xl text-white"></i>
+            </div>
+            <div class="flex flex-col items-start justify-start">
+              <h5 class="text-white font-bold text-2xl">Localidad</h5>
+              <p class="text-lg text-gray-200">Calle - provincia</p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="rounded-full bg-gray-400 p-4 mr-4 aspect-square">
+              <i class="fa-solid fa-phone text-4xl text-white"></i>
+            </div>
+            <div class="flex flex-col items-start justify-start">
+              <h5 class="text-white font-bold text-2xl">Localidad</h5>
+              <p class="text-lg text-gray-200">Calle - provincia</p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="rounded-full bg-gray-400 p-4 mr-4 aspect-square">
+              <i class="fa-solid fa-envelope text-4xl text-white"></i>
+            </div>
+            <div class="flex flex-col items-start justify-start">
+              <h5 class="text-white font-bold text-2xl">Localidad</h5>
+              <p class="text-lg text-gray-200">Calle - provincia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="bg-zinc-900 text-white p-1 px-20
+    text-sm lg:text-base text-center">Todos los derechos reservados Front End</p>
+    </div>
+  </footer>
+</body>
+</html>

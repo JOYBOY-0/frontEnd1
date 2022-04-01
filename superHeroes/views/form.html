@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Agregar Heroes</title>
+</head>
+<body>
+    <body class="flex flex-col w-screen min-h-screen
+    bg-gray-200">
+        <header class="mb-auto flex flex-col text-sm
+        bg-blue-900 overflow-hidden">
+            <p class="text-white font-semibold relative p-2 move">
+                Descuentos del 20%
+            </p>
+            <h1 class="h-16 p-3 text-4xl font-bold text-white text-center 
+            bg-gradient-to-tr from-blue-800 to-cyan-500">HEROES</h1>
+        </header>
+
+        <article class="m-auto w-[95%] max-w-[1000px] lg:h-[75vh]
+        bg-gradient-to-tr from-blue-800 to-cyan-500 rounded-xl p-4 shadow-xl shadow-cyan-300/40">
+            <h1 class="text-center text-3xl
+            text-white font-bold">Añadí tu super!</h1>
+            <p class="text-center text-gray-200 text-lg">Agregá tu personaje favorito completando las opciones.</p>
+
+            <form class="w-full flex-col flex mt-4">
+                <div class="w-full flex-col flex my-3">
+                    <label for="nombre" class="w-full text-xl font-semibold 
+                    text-white mb-2">Nombre</label>
+                    <input type="text" class="w-full p-3 rounded-lg text-lg 
+                    shadow-inner shadow-black/20" id="nombre">
+                </div>
+
+                <div class="w-full flex-col flex my-3">
+                    <label for="especie" class="w-full text-xl font-semibold 
+                    text-white mb-2">Especie</label>
+                    <select type="" class="w-full p-3 rounded-lg text-lg 
+                    shadow-inner shadow-black/20" id="especie" name="especie">
+                        <option>Humano</option>
+                        <option>Metahumano</option>
+                        <option>Extraterrestre</option>
+                        <option>Animal</option>
+                    </select>
+                </div>
+
+                <div class="w-full flex-col flex my-3">
+                    <label for="fecha" class="w-full text-xl font-semibold 
+                    text-white mb-2">Fecha</label>
+                    <input type="date" class="w-full p-3 rounded-lg text-lg 
+                    shadow-inner shadow-black/20" id="fecha" name="fecha">
+                </div>
+
+                <div class="w-full flex-col flex my-3">
+                    <label for="foto" class="w-full text-xl font-semibold 
+                    text-white mb-2">Agregar Foto</label>
+                    <input type="file" class="w-full p-3 rounded-lg text-lg bg-white
+                    shadow-inner shadow-black/20" id="foto" name="foto">
+                </div>
+
+            </form>
+        </article>
+
+        <footer class="mt-auto p-4
+        bg-gradient-to-tr from-blue-800 to-cyan-500">
+            <p class="text-white font-semibold">Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
